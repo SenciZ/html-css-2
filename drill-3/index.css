@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    background-color: lightgray;
+    height: 14vh;
+    padding: 25;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#blue-box{
+    height: 75px;
+    width: 75px;
+    background-color: cornflowerblue;
+    margin-left: 24px
+}
+p{
+    font-size: 16px;
+}
+#paragraph-section{
+    height: 36vh;
+    padding: 60px;
+    line-height: 1.2rem;
+
+}
+
+#text-paragraph2{
+    margin-top: 20px;
+}
+
+#blue-section{
+    background-color: cornflowerblue;
+}
+
+#teal-section{
+    background-color: lightseagreen;
+}
+
+#chartruse-section{
+    background-color: lightgreen;
+}
+
+#lime-section{
+    background-color: rgb(174, 249, 54);
+}
+
+.bottom-sections{
+    height: 25vh;
+}
