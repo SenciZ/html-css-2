@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400&display=swap');
+
+body{
+}
+
+.fill-white{
+    background-color: white;
+}
+#logoimg{
+    width: 220px;
+    margin-right: 20px;
+}
+
+#shopContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#hamburger{
+    width: 25px;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    margin-left: 13vw;
+    height: 60px;
+    align-items: flex-end;
+}
+#nav-bar{
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+    
+}
+
+
+
+#nav-links, a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+}
+
+#nav-links a:hover{
+    text-decoration: underline 1px white solid;
+}
+
+#currentMissionHero{
+    background-image: url(./images/spaceXtop.jpeg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:center;
+    display:flex;
+    align-items: flex-end;
+}
+
+#heroText{
+    width: 35vw;
+    margin-left: 13vw;
+    margin-bottom: 130px;
+}
+
+#heroSectionText{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-stretch: extra-condensed;
+    font-size: 45px;
+}
+
+#currentMission{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#rewatchBtn{
+    width: 195px;
+    height: 50px;
+    color: white;
+    background-color: rgba(23,23,23,0);
+    border: 2px white solid;
+    margin-top: 40px;
+}
+
+#rewatchBtn:hover{
+    color: black;
+    background-color: white;
+}
+
+#completedMissionHero{
+    background-image: url("./images/spaceHero2.jpeg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:top;
+    display:flex;
+    align-items: flex-end;
+}
+
+#starlinkMissionHero{
+    background-image: url("./images/starlinkLaunch.jpeg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:center;
+    display:flex;
+    align-items: flex-end;
+}
+
+#inspiration4ReturnsHero{
+    background-image: url("./images/inspiration4.jpeg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:center;
+    display:flex;
+    align-items: flex-end;
+}
+
+#missionExtraText{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+#nasaOnMoonHero{
+    background-image: url("./images/starshipToMoon.jpeg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:center;
+    display:flex;
+    align-items: flex-end;
+}
+
+#footer{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(14, 11, 33, 0);
+    position: absolute;
+    bottom: 10px;
+}
