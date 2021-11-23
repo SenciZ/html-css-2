@@ -37,13 +37,7 @@ body{
     box-shadow: 6px 6px 7px black;
 }
 
-#bottom-div{
-    width: 50%;
-    height: 33vh;
-    margin-top: 19px;
-    border: solid 2px lightgray;
-    box-shadow: 2px 2px 2px lightgray;
-}
+
 
 #purple-shape {
     background-color: rgb(113, 20, 179);
@@ -52,8 +46,8 @@ body{
 }
 
 #lightblue-circle{
-    width: 150px;
-    height: 150px;
+    min-width: 155px;
+    min-height: 155px;
     background-color: rgb(113, 194, 218);
     border-radius: 50%;
     margin-left: 45px
@@ -65,4 +59,29 @@ body{
     width: 300px;
     height: 100%;
     margin-left: 45px
+}
+
+#bottom-div{
+    width: 50%;
+    height: 33vh;
+    margin-top: 19px;
+    border: solid 2px lightgray;
+    box-shadow: 2px 2px 2px lightgray;
+    display: flex;
+    justify-content: center;
+}
+
+#text-container{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hello-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 10px;
+    line-height: 30px;
 }
